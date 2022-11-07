@@ -1,0 +1,11 @@
+{
+  "commands": [
+    {
+      "text": "$(terminal) Push on Git pages",
+      "command": "terminals.runTerminalByName",
+      "arguments": ["export"],
+      "tooltip": "Export app",
+      "color": "#FFFFFF"
+    }
+  ]
+}

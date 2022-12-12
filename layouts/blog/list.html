@@ -17,11 +17,9 @@
     <div class="btn-toolbar mb-2 bio" role="toolbar" aria-label="Toolbar with button groups">
         <i class="fas fa-filter"></i>
         <div id="filters" class="button-group">
-            {{ range $name, $taxonomy := .Site.Taxonomies.library_tags }}
-            {{ $btnid := $name | printf ".js-iso-%s"}}
+            {{ range $name, $taxonomy := .Site.Taxonomies.blog_tags }} {{ $btnid := $name | printf ".js-iso-%s"}}
             <input type="checkbox" class="btn-check" id="{{ $btnid }}" autocomplete="off" data-filter="{{ $btnid }}">
-            <label class="button" for="{{ $btnid }}">{{ $name }}</label>  
-            {{ end }}
+            <label class="button" for="{{ $btnid }}">{{ $name }}</label> {{ end }}
         </div>
     </div>
 </div>
@@ -29,10 +27,8 @@
 <!-- Blog Post Cards -->
 <div class="container">
     <div class="row" data-masonry='{"percentPosition": true }' id="blogposts">
-        {{ range .Pages.ByPublishDate.Reverse }}
-        {{ partial "card_book.html" . }}
-        {{ end }}
-     </div>
+        {{ range .Pages.ByPublishDate.Reverse }} {{ partial "card_book.html" . }} {{ end }}
+    </div>
 </div>
 
 {{ end }}

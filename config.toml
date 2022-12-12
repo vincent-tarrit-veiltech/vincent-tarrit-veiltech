@@ -3,6 +3,9 @@ languageCode = 'fr-ch'
 title = 'Vincent Tarrit - VeilTech'
 theme = "hugo-digital-garden-theme"
 themesdir = "./themes"
+copyright = "Vincent Tarrit"
+
+staticDir = ['static']
 
 [params]
   name = "La tech de Vincent"

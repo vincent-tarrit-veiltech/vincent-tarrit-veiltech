@@ -3,8 +3,8 @@ title: "Laravel"
 author: "Vincent Tarrit"
 date: 2022-12-12
 draft: false
-summary: "Presentation of Laravel"
-library_tags: ["laravel", "programmation"]
+summary: "Présentation de Laravel"
+blog_tags: ["laravel", "programmation"]
 ---
 
 Laravel est un framework PHP open-source populaire utilisé pour le développement d'applications web. Il a été créé en 2011 par Taylor Otwell et offre une variété d'outils et de fonctionnalités pour faciliter le développement de sites web.

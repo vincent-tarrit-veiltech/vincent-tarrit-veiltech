@@ -3,7 +3,6 @@ languageCode = 'fr-ch'
 title = 'Vincent Tarrit - VeilTech'
 theme = "hugo-digital-garden-theme"
 themesdir = "./themes"
-publishdir = "docs"
 
 [params]
   name = "Vincent Tarrit"

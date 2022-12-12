@@ -6,7 +6,6 @@ themesdir = "./themes"
 
 [params]
   name = "La tech de Vincent"
-  description = " "
   initials = "VT"
   googleAnalytics = ""
 

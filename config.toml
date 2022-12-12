@@ -5,8 +5,8 @@ theme = "hugo-digital-garden-theme"
 themesdir = "./themes"
 
 [params]
-  name = "Vincent Tarrit"
-  description = "La tech de Vincent"
+  name = "La tech de Vincent"
+  description = " "
   initials = "VT"
   googleAnalytics = ""
 

@@ -8,21 +8,12 @@
     <language>fr-ch</language>
     <lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://vincent-tarrit-veiltech.github.io/library/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Red Panda</title>
-      <link>https://vincent-tarrit-veiltech.github.io/library/book1/</link>
-      <pubDate>Sat, 10 Jul 2021 00:00:00 +0000</pubDate>
+      <title>Laravel</title>
+      <link>https://vincent-tarrit-veiltech.github.io/library/laravel/</link>
+      <pubDate>Mon, 12 Dec 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://vincent-tarrit-veiltech.github.io/library/book1/</guid>
-      <description>Biology and Conservation of the First Panda</description>
-    </item>
-    
-    <item>
-      <title>Fuji Takes a Walk</title>
-      <link>https://vincent-tarrit-veiltech.github.io/library/book2/</link>
-      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://vincent-tarrit-veiltech.github.io/library/book2/</guid>
-      <description></description>
+      <guid>https://vincent-tarrit-veiltech.github.io/library/laravel/</guid>
+      <description>Presentation of Laravel</description>
     </item>
     
   </channel>

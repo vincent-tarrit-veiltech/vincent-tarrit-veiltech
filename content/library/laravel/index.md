@@ -1,10 +1,10 @@
 ---
-title: "Red Panda"
-author: "Angela R. Glatston"
-date: 2021-07-10
-draft: fasle
-summary: "Biology and Conservation of the First Panda"
-library_tags: ["red-panda", "conservation"]
+title: "Laravel"
+author: "Vincent Tarrit"
+date: 2022-12-12
+draft: false
+summary: "Presentation of Laravel"
+library_tags: ["laravel", "programmation"]
 ---
 
 Laravel est un framework PHP open-source populaire utilisé pour le développement d'applications web. Il a été créé en 2011 par Taylor Otwell et offre une variété d'outils et de fonctionnalités pour faciliter le développement de sites web.

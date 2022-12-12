@@ -1,21 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vincent Tarrit - VeilTech</title>
-    <link>https://vincent-tarrit-veiltech.github.io/</link>
-    <description>Recent content on Vincent Tarrit - VeilTech</description>
+    <title>Articles on Vincent Tarrit - VeilTech</title>
+    <link>https://vincent-tarrit-veiltech.github.io/library/</link>
+    <description>Recent content in Articles on Vincent Tarrit - VeilTech</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-ch</language>
-    <lastBuildDate>Sat, 10 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://vincent-tarrit-veiltech.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>A propos</title>
-      <link>https://vincent-tarrit-veiltech.github.io/about/</link>
-      <pubDate>Mon, 12 Dec 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://vincent-tarrit-veiltech.github.io/about/</guid>
-      <description></description>
-    </item>
-    
+    <lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://vincent-tarrit-veiltech.github.io/library/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Red Panda</title>
       <link>https://vincent-tarrit-veiltech.github.io/library/book1/</link>

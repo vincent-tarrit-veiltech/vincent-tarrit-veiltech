@@ -3,7 +3,7 @@ title: "Laravel"
 author: "Vincent Tarrit"
 date: 2022-12-12
 draft: false
-summary: "Laravel facilite la création d'applications web modernes."
+summary: "Laravel, le framework PHP, simplifie la création rapide d'applications web avancées."
 blog_tags: ["laravel", "programmation"]
 ---
 

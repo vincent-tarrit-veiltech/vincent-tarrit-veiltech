@@ -3,7 +3,7 @@ title: "Vue"
 author: "Vincent Tarrit"
 date: 2022-12-12
 draft: false
-summary: "Présentation de Vue"
+summary: "Vue.js, le framework JavaScript, facilite la création rapide d'interfaces interactives."
 blog_tags: ["vue", "programmation"]
 ---
 

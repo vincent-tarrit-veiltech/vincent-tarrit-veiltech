@@ -3,7 +3,7 @@ title: "Laravel"
 author: "Vincent Tarrit"
 date: 2022-12-12
 draft: false
-summary: "Présentation de Laravel"
+summary: "Laravel facilite la création d'applications web modernes."
 blog_tags: ["laravel", "programmation"]
 ---
 

@@ -1,7 +1,7 @@
 ---
-title: "A propos"
+title: "Présentation"
 date: 2022-12-12
-summary: "Présentation"
+summary: " "
 layout: about
 ---
 

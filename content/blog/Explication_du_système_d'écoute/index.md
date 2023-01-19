@@ -1,5 +1,5 @@
 ---
-title: "Laravel"
+title: "La veille technologique"
 author: "Vincent Tarrit"
 date: 2022-12-12
 draft: false

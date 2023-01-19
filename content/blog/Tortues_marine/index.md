@@ -4,7 +4,7 @@ author: "Vincent Tarrit"
 date: 2022-01-12
 draft: false
 summary: "L'importance de l'informatique dans la conservation des tortues marines"
-blog_tags: ["tortue", "informatique"]
+blog_tags: ["science"]
 ---
 
 L'informatique joue un rôle crucial dans le traitement et l'analyse de données scientifiques sur les tortues marines. Les chercheurs peuvent utiliser des outils informatiques pour collecter, stocker, analyser et visualiser des données en provenance de différentes sources, comme les capteurs de suivi GPS, les caméras de surveillance et les enregistrements audio.

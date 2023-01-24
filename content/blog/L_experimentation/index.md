@@ -3,7 +3,7 @@ title: "Mon expérimentation de veille"
 author: "Vincent Tarrit"
 date: 2023-01-24
 draft: false
-summary: "Qu'ai-je fait avec un outil de veille?"
+summary: "Qu'ai-je fait avec un outil découvert en effectuant une veille?"
 blog_tags: ["développement"]
 ---
 

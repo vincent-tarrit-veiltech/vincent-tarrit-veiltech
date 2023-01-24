@@ -9,122 +9,48 @@ blog_tags: ["veille"]
 
 # Quelques tips and tricks pour Laravel
 
-## Qu'est-ce que Laravel ?
+Cet article décrit différents trucs et astuces pour utiliser efficacement l'ORM de Laravel nommé "Eloquent". Cet article à pour but de graver les bonnes idées afin de réduire et améliorer la lisibilité et l'efficacité d'un site internet développé en Laravel.
 
-Laravel est un framework PHP qui permet de développer des applications web.
+# 1
 
-## Quelques tips and tricks
+A la place de:
 
-### Créer un projet Laravel
+```php
+$article = Article::find($article_id);
+$article->read_count++;
+$article->save();
+```
 
-Pour créer un projet Laravel, il faut utiliser la commande suivante :
+Vous pouvez écrire:
 
-```bash laravel new nom_du_projet ```
+```php
+$article = Article::find($article_id);
+$article->increment('read_count');
+```
 
-### Créer un controller
+Ou alors en une ligne:
 
-Pour créer un controller, il faut utiliser la commande suivante :
+```php
+Article::find($article_id)->increment('read_count');
+Article::find($article_id)->increment('read_count', 10); // +10
+Product::find($produce_id)->decrement('stock'); // -1
+```
 
-```bash php artisan make:controller NomDuController ```
+# 2
 
-### Créer un model
+A la place de:
 
-Pour créer un model, il faut utiliser la commande suivante :
+```php
+$user = User::find($id);
+if (!$user) { abort (404); }
+```
 
-```bash php artisan make:model NomDuModel ```
+Vous pouvez écrire:
 
-### Créer une migration
+```php
+$user = User::findOrFail($id);
+```
 
-Pour créer une migration, il faut utiliser la commande suivante :
+# Sources
 
-```bash php artisan make:migration create_nom_de_la_table_table ```
-
-### Créer une factory
-
-Pour créer une factory, il faut utiliser la commande suivante :
-
-```bash php artisan make:factory NomDeLaFactory ```
-
-### Créer un seeder
-
-Pour créer un seeder, il faut utiliser la commande suivante :
-
-```bash php artisan make:seeder NomDuSeeder ```
-
-### Créer un middleware
-
-Pour créer un middleware, il faut utiliser la commande suivante :
-
-```bash php artisan make:middleware NomDuMiddleware ```
-
-### Créer un event
-
-Pour créer un event, il faut utiliser la commande suivante :
-
-```bash php artisan make:event NomDeLEvent ```
-
-## Sources
-
-- [https://laravel.com/docs/8.x/artisan](https://laravel.com/docs/8.x/artisan)
-
-[]: # # Quelques tips and tricks pour Laravel
-[]: # 
-[]: # ## Qu'est-ce que Laravel ?
-[]: # 
-[]: # Laravel est un framework PHP qui permet de développer des applications web.
-[]: # 
-[]: # ## Quelques tips and tricks
-[]: # 
-[]: # ### Créer un projet Laravel
-[]: # 
-[]: # Pour créer un projet Laravel, il faut utiliser la commande suivante :
-[]: # 
-[]: # ```bash
-[]: # laravel new nom_du_projet
-[]: # ```
-[]: # 
-[]: # ### Créer un controller
-[]: # 
-[]: # Pour créer un controller, il faut utiliser la commande suivante :
-[]: # 
-[]: # ```bash
-[]: # php artisan make:controller NomDuController
-[]: # ```
-[]: # 
-[]: # ### Créer un model
-[]: # 
-[]: # Pour créer un model, il faut utiliser la commande suivante :
-[]: # 
-[]: # ```bash
-[]: # php artisan make:model NomDuModel
-[]: # ```
-[]: # 
-[]: # ### Créer une migration
-[]: # 
-[]: # Pour créer une migration, il faut utiliser la commande suivante :
-[]: # 
-[]: # ```bash
-[]: # php artisan make:migration create_nom_de_la_table_table
-[]: # ```
-[]: # 
-[]: # ### Créer une factory
-[]: # 
-[]: # Pour créer une factory, il faut utiliser la commande suivante :
-[]: # 
-[]: # ```bash
-[]: # php artisan make:factory NomDeLaFactory
-[]: # ```
-[]: # 
-[]: # ### Créer un seeder
-[]: # 
-[]: # Pour créer un seeder, il faut utiliser la commande suivante :
-[]: # 
-[]: # ```bash
-[]: # php artisan make:seeder NomDuSeeder
-[]: # ```
-[]: # 
-[]: # ### Créer un middleware
-[]: # 
-[]: # Pour créer un middleware, il faut utiliser la commande suivante :
-[]: # 
-[]: # ```
+- https://laravel-news.com/eloquent-tips-tricks (24 janvier 2023 à 10:26)

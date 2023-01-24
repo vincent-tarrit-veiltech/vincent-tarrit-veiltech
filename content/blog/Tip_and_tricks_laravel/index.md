@@ -51,6 +51,21 @@ Vous pouvez écrire:
 $user = User::findOrFail($id);
 ```
 
+# 3
+
+Vous pouvez utiliser la fonction boot qui permet d'effectuer des actions avant ou après la création/sauvegarde/modification du model.
+
+```php
+public static function boot()
+{
+  parent::boot();
+  self::creating(function ($model) {
+    $model->uuid = (string)Uuid::generate();
+  });
+}
+
+```
+
 # Sources
 
 - https://laravel-news.com/eloquent-tips-tricks (24 janvier 2023 à 10:26)

@@ -7,65 +7,30 @@ summary: "Quel est l'avantage d'utiliser un ORM ?"
 blog_tags: ["développement"]
 ---
 
+# Pourquoi ai-je choisi cet article ?
+
+L'utilisation d'un ORM devient de plus en plus naturel dans tous les framework web. Je trouve intéressant de se poser la question du pourquoi utiliser un tel ou tel outil plutôt que de l'utiliser les yeux fermés.
+
 # Quel est l'avantage d'utiliser un ORM ?
 
-## Introduction
+L'utilisation d'un ORM (Object Relational Mapping) pour manipuler des données dans la construction d'une application apporte des avantages tels que la réduction du code à écrire et à maintenir, l'homogénéité du code objet et l'accélération du temps de développement. Cependant, ces avantages sont souvent contrebalancés par des inconvénients tels que les limites dans la manipulation de modèles de bases de données plus complexes et la dépendance à des bibliothèques supplémentaires. La décision d'utiliser un ORM dépend donc des avantages de ces dépendances supplémentaires en fonction de l'effort nécessaire pour le projet. Il est préférable d'utiliser un ORM de manière modérée et circonstanciée pour tirer le meilleur parti de ses avantages et éviter ses inconvénients.
 
-Les ORM (Object-Relational Mapping) sont des outils qui permettent aux développeurs de travailler avec des bases de données relationnelles de manière plus orientée objet. Cela signifie que les données stockées dans la base de données sont représentées par des objets dans le code de l'application, plutôt que de travailler directement avec des requêtes SQL. Les ORM sont conçus pour faciliter la communication des développeurs avec les bases de données et le code d'application.
+<img src="/images/orm.png">
 
-## Avantages
+## Les avantages d'un ORM (Object Relational Mapping) comprennent :
 
-### Productivité
+- La réduction de la quantité de code à écrire et à maintenir pour manipuler des données dans la base de données depuis l'application.
+- L'homogénéité du code objet, car il permet de travailler avec des objets plutôt que des lignes de code SQL.
+- L'accélération du temps de développement, car il simplifie les tâches de manipulation de données.
+- La possibilité de changer de système de gestion de base de données sans avoir à modifier le code de l'application.
 
-Un ORM peut aider les développeurs à se concentrer sur la logique de leur application, plutôt que de se soucier des détails de la façon dont les données sont stockées et extraites d'une base de données.
+## Les inconvénients d'un ORM incluent :
 
-### Portabilité
+- Les limites dans la manipulation de modèles de bases de données plus complexes.
+- Une dépendance à des bibliothèques supplémentaires, ce qui peut rendre le projet plus complexe à gérer.
+- Une performance moins bonne par rapport à l'utilisation directe du SQL.
+- Les ORM ne sont pas toujours adaptés à tous les besoins, il faut donc être conscient de cela pour pouvoir choisir le bon ORM pour votre projet.
 
-Un ORM est un outil qui vous aide à gérer les données de votre application en prenant en charge les modifications apportées à la structure de la base de données. Cela signifie que vous pouvez vous concentrer sur le développement de votre application au lieu d'avoir à vous soucier des détails de la base de données.
+# Sources
 
-### Sécurité
-
-Les ORM vous aident à vous protéger contre les attaques par injection SQL en échappant automatiquement les caractères spéciaux dans votre entrée avant de les utiliser dans les requêtes SQL.
-
-### Pour les développeurs
-
-Un ORM est un outil qui permet aux développeurs de créer automatiquement des requêtes SQL, ce qui peut rendre le travail avec la base de données plus efficace. Cela signifie que les développeurs n'ont pas à écrire constamment eux-mêmes des requêtes SQL personnalisées.
-
-## Inconvénients
-
-### Performance
-
-Les ORM peuvent rendre les requêtes SQL plus rapides que si vous les écriviez vous-même, surtout si la requête est compliquée ou implique une grande base de données. Les ORM traduisent les requêtes de l'application en code SQL avant de les exécuter, afin que le code soit exécuté plus rapidement.
-
-### Difficulté de travail
-
-Un inconvénient des ORM est qu'ils peuvent être plus difficiles à comprendre et à déboguer que les requêtes SQL écrites manuellement. Les développeurs doivent se familiariser avec le fonctionnement de l'ORM et la façon dont il traduit les requêtes d'application en requêtes SQL, ce qui peut prendre du temps si vous n'êtes pas familiarisé avec l'une ou l'autre de ces choses.
-
-Un "ORM" est un outil qui vous aide à travailler avec des bases de données plus facilement que si vous travailliez directement avec des requêtes SQL. Lorsque des erreurs se produisent, il peut être plus difficile de les diagnostiquer et de les corriger dans les requêtes SQL, mais avec un ORM, il peut être plus facile de voir où se situe le problème.
-
-## Quels sont les ORM les plus utilisés ?
-
-### Hibernate (Java)
-[https://hibernate.org/](https://hibernate.org/)
-
-### Eloquent (Laravel/PHP)
-[https://laravel.com/docs/9.x/eloquent](https://laravel.com/docs/9.x/eloquent)
-
-### Ruby on Rails ActiveRecord (Ruby)
-[https://guides.rubyonrails.org/active_record_basics.html](https://guides.rubyonrails.org/active_record_basics.html)
-
-### Django ORM (Python)
-[https://docs.djangoproject.com/fr/4.1/topics/db/queries/](https://docs.djangoproject.com/fr/4.1/topics/db/queries/)
-
-### EF Core (C#)
-[https://learn.microsoft.com/en-us/ef/core/](https://learn.microsoft.com/en-us/ef/core/)
-
-## Conclusion
-
-Les ORM sont des outils qui permettent aux développeurs back-end de travailler avec des bases de données relationnelles à l'aide d'une interface orientée objet. Ils présentent des avantages tels que la possibilité d'abstraire la base de données, d'être portables et d'avoir des fonctionnalités de sécurité, mais ils peuvent également avoir des inconvénients, comme des performances plus lentes et une complexité accrue. Il existe de nombreux ORM différents, chacun avec ses propres caractéristiques et fonctionnalités. Les développeurs doivent évaluer les besoins de leur application pour déterminer si un ORM est approprié pour leur projet.
-
-## Sources
-
-- https://www.editions-eni.fr/open/mediabook.aspx
-- https://fr.wikipedia.org/wiki/Mapping_objet-relationnel
-- https://www.base-de-donnees.com/orm/
+- https://sgbd.developpez.com/actu/261037/Faut-il-utiliser-les-ORM-ou-continuer-d-ecrire-simplement-des-requetes-SQL-Eli-Bendersky-donne-son-avis/ (24 janvier 2023 9:47)

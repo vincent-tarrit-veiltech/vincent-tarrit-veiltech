@@ -4,7 +4,7 @@ author: "Vincent Tarrit"
 date: 2022-12-12
 draft: false
 summary: "Quel est l'avantage d'utiliser un ORM ?"
-blog_tags: ["développement"]
+blog_tags: ["développement", "base de données"]
 ---
 
 # Pourquoi ai-je choisi cet article ?

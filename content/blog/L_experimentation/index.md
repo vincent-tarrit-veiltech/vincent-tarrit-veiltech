@@ -4,7 +4,7 @@ author: "Vincent Tarrit"
 date: 2023-01-24
 draft: false
 summary: "Qu'ai-je fait avec un outil découvert en effectuant une veille?"
-blog_tags: ["développement"]
+blog_tags: ["développement", "laravel"]
 ---
 
 En naviguant sur Twitter, j'ai découvert l'outil [Filament](https://filamentphp.com/), un puissant framework full-stack à l'intérieur de Laravel. Il utilise le stack TALL: [TailwindCSS](https://tailwindcss.com/), [AlpineJS](https://alpinejs.dev/), [Laravel](https://laravel.com) et [Livewire](https://laravel-livewire.com/).

@@ -4,7 +4,7 @@ author: "Vincent Tarrit"
 date: 2022-12-12
 draft: false
 summary: "Se tenir au courant, s'adapter à l'évolution du marché grâce à la veille technologique."
-blog_tags: ["veille"]
+blog_tags: ["veille", "développement", "laravel"]
 ---
 
 Pour suivre mes sujets d'intérêt, j'utilise Twitter et YouTube. En particulier, je suis abonné à Povilas Korop. Il tient une chaîne [YouTube](https://www.youtube.com/c/laraveldaily) et [un blog/site de cours](https://laraveldaily.com/) dédié à Laravel. Il y explique des thématiques et des astuces sur ce framework.

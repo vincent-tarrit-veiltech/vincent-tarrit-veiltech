@@ -4,7 +4,7 @@ author: "Vincent Tarrit"
 date: 2022-12-12
 draft: false
 summary: "Quel est l'avantage d'utiliser un framework dans le développement web?"
-blog_tags: ["développement"]
+blog_tags: ["développement", "laravel"]
 ---
 
 # Pourquoi ai-je choisi cet article?

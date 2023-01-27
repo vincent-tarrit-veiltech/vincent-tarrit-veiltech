@@ -4,7 +4,7 @@ author: "Vincent Tarrit"
 date: 2022-12-12
 draft: false
 summary: "Quelques tips and tricks pour Laravel"
-blog_tags: ["veille"]
+blog_tags: ["laravel", "développement"]
 ---
 
 # Quelques tips and tricks pour Laravel

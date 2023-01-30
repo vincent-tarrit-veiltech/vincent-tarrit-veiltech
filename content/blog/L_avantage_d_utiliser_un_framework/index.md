@@ -13,7 +13,7 @@ Cet article est intéressant car il permet de prendre conscience de l'utilisatio
 
 # Qu'est-ce qu'un framework?
 
-L'article explique ce qu'est un framework et pourquoi il est utilisé par les développeurs. Les frameworks sont des cadres de travail basés sur une architecture applicative qui proposent un ensemble d'outils et de composants logiciels cohérents. Ils aident les développeurs à respecter certaines pratiques et normes de développement, et à se concentrer sur l'essentiel, c'est-à-dire le développement des composants métiers. Il existe différents types de frameworks, chacun ayant une architecture propre pour répondre à des besoins spécifiques. Les frameworks sont également accompagnés de composants réutilisables qui permettent aux développeurs de gagner du temps sur les développements et les tests.
+L'article explique ce qu'est un framework et pourquoi il est utilisé par les développeurs. Les frameworks sont des boites à outils qui proposent un ensemble d'outils et de composants logiciels cohérents. Ils aident les développeurs à respecter certaines pratiques et normes de développement, et à se concentrer sur l'essentiel, c'est-à-dire le développement des composants métiers. Il existe différents types de frameworks, chacun ayant une architecture propre pour répondre à des besoins spécifiques. Les frameworks sont également accompagnés de composants réutilisables qui permettent aux développeurs de gagner du temps sur les développements et les tests.
 
 # Quels sont les avantages?
 
@@ -25,7 +25,7 @@ L'article explique ce qu'est un framework et pourquoi il est utilisé par les d�
 
 # Quels sont les inconvénients?
 
-- Les frameworks peuvent être lourds et complexe à utiliser, surtout pour les débutants.
+- Les frameworks peuvent être lourds et complexes à utiliser, surtout pour les débutants.
 - En utilisant un framework, vous devez suivre les conventions et les structures de celui-ci, ce qui peut limiter la flexibilité de votre code.
   Les frameworks peuvent être difficiles à personnaliser pour répondre à des besoins spécifiques de l'application.
 - Les frameworks peuvent être difficile à mettre à niveau ou à migrer vers de nouvelles versions.
